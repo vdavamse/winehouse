@@ -3,25 +3,300 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wine House · Guesthouse in Georgia</title>
-  <meta name="description" content="Wine House is a family guesthouse in Georgia. Rooms, homemade wine and Georgian hospitality. Website coming soon.">
-  <meta property="og:title" content="Wine House · Guesthouse in Georgia">
-  <meta property="og:description" content="Family guesthouse in Georgia. Rooms, homemade wine and Georgian hospitality.">
+  <title>Wine House · Guesthouse in Tbilisi, Georgia</title>
+  <meta name="description" content="Wine House is a family-run guesthouse in Tbilisi with a shaded courtyard, five private rooms, free Wi-Fi and parking, a short walk from Tbilisi Central Station and Nadzaladevi metro.">
+  <link rel="canonical" href="https://www.wine-house.ge/">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.wine-house.ge/">
+  <meta property="og:title" content="Wine House · Guesthouse in Tbilisi">
+  <meta property="og:description" content="Family-run guesthouse in Tbilisi. Quiet courtyard, private rooms, free Wi-Fi and parking, near Central Station.">
+  <meta property="og:image" content="https://www.wine-house.ge/img/og.jpg">
+  <meta name="theme-color" content="#2b1118">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Noto+Sans:wght@400;500;600&family=Noto+Sans+Georgian:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Wine House",
+    "url": "https://www.wine-house.ge/",
+    "image": "https://www.wine-house.ge/img/og.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "67 Giorgi Saakadze Street",
+      "addressLocality": "Tbilisi",
+      "postalCode": "0180",
+      "addressCountry": "GE"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 41.736988, "longitude": 44.796784 },
+    "checkinTime": "14:00",
+    "checkoutTime": "12:00",
+    "petsAllowed": true,
+    "amenityFeature": [
+      { "@type": "LocationFeatureSpecification", "name": "Free Wi-Fi", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Free parking", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Air conditioning", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Garden", "value": true }
+    ]
+  }
+  </script>
 </head>
 <body>
-  <main class="hero">
-    <p class="eyebrow">Guesthouse · საქართველო · Georgia</p>
-    <h1>Wine House</h1>
-    <p class="lead">Rooms, homemade wine and a warm Georgian welcome.<br>Our website is on its way.</p>
-    <p class="contact">
-      <!-- Replace 995XXXXXXXXX with the real WhatsApp number, digits only, no + -->
-      <a class="btn" href="https://wa.me/995XXXXXXXXX">Message us on WhatsApp</a>
-    </p>
-  </main>
-  <footer>© <span id="y"></span> Wine House Guesthouse</footer>
-  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+
+<header class="site-header">
+  <a class="brand" href="#top">Wine House</a>
+  <nav class="nav" aria-label="Main">
+    <a href="#rooms">Rooms</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#location">Location</a>
+    <a href="#contact">Contact</a>
+    <a class="nav-cta" href="https://www.booking.com/hotel/ge/royal-arch.html" target="_blank" rel="noopener">Book</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <img class="hero-img" src="img/exterior.webp" alt="Wine House guesthouse from the street, with its wooden balcony and flowering trees" width="1536" height="1025" fetchpriority="high">
+    <div class="hero-overlay">
+      <p class="eyebrow">Guesthouse · Tbilisi · <span class="ka">თბილისი</span></p>
+      <h1>Wine House</h1>
+      <p class="lead">A quiet family home in Tbilisi with a shaded courtyard, five private rooms and a host who treats you like family.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://www.booking.com/hotel/ge/royal-arch.html" target="_blank" rel="noopener">Check availability</a>
+        <!-- WHATSAPP: replace 995XXXXXXXXX with the real number, digits only, no + -->
+        <a class="btn btn-ghost" href="https://wa.me/995XXXXXXXXX" target="_blank" rel="noopener">WhatsApp us</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro container">
+    <div class="intro-text">
+      <h2>Welcome to Wine House</h2>
+      <p>Wine House is a family-run guesthouse in a traditional Tbilisi house, a short walk from Central Station and Nadzaladevi metro. Behind the gate you will find a vine-covered courtyard where guests sit down in the evening with a glass of homemade wine.</p>
+      <p>Your host Marina looks after the house herself. Guests keep coming back for her warmth, her cooking and the calm of the place, only minutes from the noise of the city. Gogito, the house dog, will probably say hello too.</p>
+      <ul class="facts">
+        <li><strong>5 rooms</strong> for 2 to 6 guests</li>
+        <li><strong>Free Wi-Fi</strong> and free parking</li>
+        <li><strong>Check-in</strong> 14:00 to 24:00, check-out by 12:00</li>
+        <li><strong>English and Russian</strong> spoken</li>
+      </ul>
+    </div>
+    <figure class="intro-img">
+      <img src="img/courtyard.webp" alt="Shaded courtyard with a table and chairs under the vines" width="1536" height="1025" loading="lazy" data-full="img/courtyard.webp">
+      <figcaption>The courtyard, where most evenings end.</figcaption>
+    </figure>
+  </section>
+
+  <section id="rooms" class="rooms">
+    <div class="container">
+      <h2>Rooms</h2>
+      <p class="section-lead">Every room has a private bathroom, fresh linen and towels, heating and air conditioning. Prices and live availability are on Booking.com, or message us directly for the best rate.</p>
+
+      <div class="room-grid">
+
+        <article class="room">
+          <a class="room-cover" href="img/king-balcony-3.webp" data-full="img/king-balcony-3.webp">
+            <img src="img/king-balcony-3.webp" alt="King room with balcony: large bed, desk and open balcony door" width="1280" height="853" loading="lazy">
+          </a>
+          <div class="room-body">
+            <h3>King Room with Balcony</h3>
+            <p class="room-meta">Sleeps 2 · King bed · Private balcony</p>
+            <p>Bright room on the upper floor with a king-size bed, a desk, a flat-screen TV and your own balcony over the street.</p>
+            <div class="thumbs">
+              <a href="img/king-balcony-1.webp" data-full="img/king-balcony-1.webp"><img src="img/king-balcony-1.webp" alt="" loading="lazy"></a>
+              <a href="img/king-balcony-2.webp" data-full="img/king-balcony-2.webp"><img src="img/king-balcony-2.webp" alt="" loading="lazy"></a>
+              <a href="img/king-balcony-4.webp" data-full="img/king-balcony-4.webp"><img src="img/king-balcony-4.webp" alt="" loading="lazy"></a>
+              <a href="img/king-balcony-5.webp" data-full="img/king-balcony-5.webp"><img src="img/king-balcony-5.webp" alt="" loading="lazy"></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="room">
+          <a class="room-cover" href="img/king-1.webp" data-full="img/king-1.webp">
+            <img src="img/king-1.webp" alt="King room with olive walls, king bed, carpet and en-suite bathroom" width="1600" height="1066" loading="lazy">
+          </a>
+          <div class="room-body">
+            <h3>King Room</h3>
+            <p class="room-meta">Sleeps 2 · King bed · En-suite bathroom</p>
+            <p>A warm, quiet room with a king-size bed, a sitting corner by the window, a TV and a tiled en-suite bathroom with a heated towel rail.</p>
+            <div class="thumbs">
+              <a href="img/king-3.webp" data-full="img/king-3.webp"><img src="img/king-3.webp" alt="" loading="lazy"></a>
+              <a href="img/king-2.webp" data-full="img/king-2.webp"><img src="img/king-2.webp" alt="" loading="lazy"></a>
+              <a href="img/king-bath-1.webp" data-full="img/king-bath-1.webp"><img src="img/king-bath-1.webp" alt="" loading="lazy"></a>
+              <a href="img/king-6.webp" data-full="img/king-6.webp"><img src="img/king-6.webp" alt="" loading="lazy"></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="room">
+          <a class="room-cover" href="img/budget-double-3.webp" data-full="img/budget-double-3.webp">
+            <img src="img/budget-double-3.webp" alt="Budget double room with double bed, pink curtains and en-suite shower" width="1600" height="1066" loading="lazy">
+          </a>
+          <div class="room-body">
+            <h3>Budget Double Room</h3>
+            <p class="room-meta">Sleeps 2 · Double bed · Private bathroom</p>
+            <p>Simple and comfortable: a double bed, wardrobe, parquet floor and a private shower room. The best-value way to stay at Wine House.</p>
+            <div class="thumbs">
+              <a href="img/budget-double-5.webp" data-full="img/budget-double-5.webp"><img src="img/budget-double-5.webp" alt="" loading="lazy"></a>
+              <a href="img/budget-double-2.webp" data-full="img/budget-double-2.webp"><img src="img/budget-double-2.webp" alt="" loading="lazy"></a>
+              <a href="img/budget-double-4.webp" data-full="img/budget-double-4.webp"><img src="img/budget-double-4.webp" alt="" loading="lazy"></a>
+              <a href="img/budget-double-1.webp" data-full="img/budget-double-1.webp"><img src="img/budget-double-1.webp" alt="" loading="lazy"></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="room">
+          <a class="room-cover" href="img/quadruple-1.webp" data-full="img/quadruple-1.webp">
+            <img src="img/quadruple-1.webp" alt="Superior quadruple room: double bedroom with en-suite bathroom" width="1536" height="1025" loading="lazy">
+          </a>
+          <div class="room-body">
+            <h3>Superior Quadruple Room</h3>
+            <p class="room-meta">Sleeps 4 · Double bed + 2 singles · Two rooms</p>
+            <p>Two connected rooms for a family or friends: a double bedroom with its own bathroom, and a twin room with two single beds.</p>
+            <div class="thumbs">
+              <a href="img/quadruple-6.webp" data-full="img/quadruple-6.webp"><img src="img/quadruple-6.webp" alt="" loading="lazy"></a>
+              <a href="img/quadruple-2.webp" data-full="img/quadruple-2.webp"><img src="img/quadruple-2.webp" alt="" loading="lazy"></a>
+              <a href="img/quadruple-4.webp" data-full="img/quadruple-4.webp"><img src="img/quadruple-4.webp" alt="" loading="lazy"></a>
+              <a href="img/quadruple-bath.webp" data-full="img/quadruple-bath.webp"><img src="img/quadruple-bath.webp" alt="" loading="lazy"></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="room room-wide">
+          <a class="room-cover" href="img/family-2.webp" data-full="img/family-2.webp">
+            <img src="img/family-2.webp" alt="Large family room with chandelier, several beds and a sofa" width="1600" height="1066" loading="lazy">
+          </a>
+          <div class="room-body">
+            <h3>Family Apartment</h3>
+            <p class="room-meta">Sleeps up to 6 · Double bed + singles · Kitchen and living room</p>
+            <p>The biggest space in the house: a grand high-ceilinged bedroom with a chandelier, a double bed and single beds, plus a separate living room with sofa, dining table and a fully equipped kitchen. Ideal for families and small groups.</p>
+            <div class="thumbs">
+              <a href="img/family-3.webp" data-full="img/family-3.webp"><img src="img/family-3.webp" alt="" loading="lazy"></a>
+              <a href="img/family-6.webp" data-full="img/family-6.webp"><img src="img/family-6.webp" alt="" loading="lazy"></a>
+              <a href="img/family-7.webp" data-full="img/family-7.webp"><img src="img/family-7.webp" alt="" loading="lazy"></a>
+              <a href="img/family-1.webp" data-full="img/family-1.webp"><img src="img/family-1.webp" alt="" loading="lazy"></a>
+              <a href="img/family-4.webp" data-full="img/family-4.webp"><img src="img/family-4.webp" alt="" loading="lazy"></a>
+              <a href="img/family-5.webp" data-full="img/family-5.webp"><img src="img/family-5.webp" alt="" loading="lazy"></a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery container">
+    <h2>The house</h2>
+    <div class="masonry">
+      <a href="img/courtyard.webp" data-full="img/courtyard.webp"><img src="img/courtyard.webp" alt="Courtyard with table under the vines" loading="lazy"></a>
+      <a href="img/exterior.webp" data-full="img/exterior.webp"><img src="img/exterior.webp" alt="Street view of the house" loading="lazy"></a>
+      <a href="img/family-3.webp" data-full="img/family-3.webp"><img src="img/family-3.webp" alt="Family room with balcony door" loading="lazy"></a>
+      <a href="img/king-3.webp" data-full="img/king-3.webp"><img src="img/king-3.webp" alt="King room window seat" loading="lazy"></a>
+      <a href="img/quadruple-6.webp" data-full="img/quadruple-6.webp"><img src="img/quadruple-6.webp" alt="Twin room of the quadruple" loading="lazy"></a>
+      <a href="img/king-balcony-1.webp" data-full="img/king-balcony-1.webp"><img src="img/king-balcony-1.webp" alt="King room with balcony, wardrobe side" loading="lazy"></a>
+    </div>
+  </section>
+
+  <section class="amenities">
+    <div class="container">
+      <h2>Good to know</h2>
+      <ul class="amenity-grid">
+        <li><span class="ico">📶</span>Free Wi-Fi throughout</li>
+        <li><span class="ico">🅿️</span>Free parking</li>
+        <li><span class="ico">❄️</span>Air conditioning and heating</li>
+        <li><span class="ico">🚿</span>Private bathroom in every room</li>
+        <li><span class="ico">🍇</span>Courtyard and garden seating</li>
+        <li><span class="ico">📺</span>Flat-screen TV</li>
+        <li><span class="ico">☕</span>Kettle in the room</li>
+        <li><span class="ico">🐕</span>Pets welcome</li>
+        <li><span class="ico">🔒</span>24-hour security</li>
+        <li><span class="ico">✈️</span>Airport transfer on request</li>
+        <li><span class="ico">🗺️</span>Tours and tickets help</li>
+        <li><span class="ico">🕑</span>Check-in 14:00 to 24:00</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="location" class="location container">
+    <div class="location-text">
+      <h2>Where we are</h2>
+      <p class="address">67 Giorgi Saakadze Street<br>Tbilisi 0180, Georgia</p>
+      <ul class="directions">
+        <li><strong>Tbilisi Central Station</strong>: about 20 minutes on foot, or two stops on the metro.</li>
+        <li><strong>Nadzaladevi metro</strong>: the nearest station, on the Akhmeteli–Varketili line. Didube metro and the intercity bus station are one stop further.</li>
+        <li><strong>Tbilisi Airport</strong>: about 25 km. Ask us for a transfer, or take bus 337 to Station Square and the metro from there.</li>
+        <li><strong>Old Town</strong>: 15 to 20 minutes by metro or taxi.</li>
+      </ul>
+      <p>
+        <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&destination=41.736988,44.796784" target="_blank" rel="noopener">Get directions</a>
+        <a class="btn btn-ghost" href="https://share.google/OnaIryUc26GvY1bTb" target="_blank" rel="noopener">See on Google</a>
+      </p>
+    </div>
+    <div class="map">
+      <iframe title="Map showing Wine House, 67 Giorgi Saakadze Street, Tbilisi" src="https://www.google.com/maps?q=41.736988,44.796784&z=16&output=embed" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Book your stay</h2>
+      <p class="section-lead">Message Marina directly for questions, longer stays or the best price. Or book instantly on Booking.com.</p>
+      <div class="contact-actions">
+        <!-- WHATSAPP: replace 995XXXXXXXXX with the real number, digits only, no + -->
+        <a class="btn btn-primary btn-lg" href="https://wa.me/995XXXXXXXXX" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn btn-ghost btn-lg" href="https://www.booking.com/hotel/ge/royal-arch.html" target="_blank" rel="noopener">Booking.com</a>
+      </div>
+      <p class="small">Check-in from 14:00 until midnight. Check-out by 12:00. Let us know your arrival time so someone is at the gate.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="y"></span> Wine House Guesthouse · 67 Giorgi Saakadze Street, Tbilisi · <span class="ka">ღვინის სახლი</span></p>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" aria-label="Close">×</button>
+  <button class="lb-prev" aria-label="Previous">‹</button>
+  <img id="lb-img" alt="">
+  <button class="lb-next" aria-label="Next">›</button>
+</div>
+
+<script>
+document.getElementById('y').textContent = new Date().getFullYear();
+
+(function () {
+  var items = Array.prototype.slice.call(document.querySelectorAll('[data-full]'));
+  var box = document.getElementById('lightbox');
+  var img = document.getElementById('lb-img');
+  var i = 0;
+  function show(n) {
+    i = (n + items.length) % items.length;
+    img.src = items[i].getAttribute('data-full');
+    var inner = items[i].querySelector('img');
+    img.alt = inner ? inner.alt : (items[i].alt || '');
+    box.hidden = false;
+    document.body.style.overflow = 'hidden';
+  }
+  function hide() { box.hidden = true; img.src = ''; document.body.style.overflow = ''; }
+  items.forEach(function (el, n) {
+    el.addEventListener('click', function (e) { e.preventDefault(); show(n); });
+  });
+  box.querySelector('.lb-close').addEventListener('click', hide);
+  box.querySelector('.lb-prev').addEventListener('click', function () { show(i - 1); });
+  box.querySelector('.lb-next').addEventListener('click', function () { show(i + 1); });
+  box.addEventListener('click', function (e) { if (e.target === box) hide(); });
+  document.addEventListener('keydown', function (e) {
+    if (box.hidden) return;
+    if (e.key === 'Escape') hide();
+    if (e.key === 'ArrowLeft') show(i - 1);
+    if (e.key === 'ArrowRight') show(i + 1);
+  });
+})();
+</script>
 </body>
 </html>
