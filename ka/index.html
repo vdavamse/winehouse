@@ -90,10 +90,21 @@
         <li>ვსაუბრობთ <strong>ინგლისურად და რუსულად</strong></li>
       </ul>
     </div>
-    <figure class="intro-img">
-      <img src="../img/dinner.webp" alt="ვახშამი ეზოს მაგიდაზე: ხინკალი, ხაჭაპური, პომიდორი, ახალი ყველი, ნესვი და დოქი სახლის ღვინო" width="1370" height="1028" loading="lazy" data-full="../img/dinner.webp">
-      <figcaption>საღამო მარინას სუფრასთან: ხინკალი, ხაჭაპური, ახალი ყველი და მისი სახლის ღვინო.</figcaption>
-    </figure>
+    <div class="intro-img carousel">
+      <div class="track">
+        <figure class="slide">
+          <img src="../img/courtyard.webp" alt="ჩრდილიანი ეზო მაგიდითა და სკამებით ვაზის ქვეშ" width="1536" height="1025" loading="lazy" data-full="../img/courtyard.webp">
+          <figcaption>ეზო, სადაც თითქმის ყველა საღამო მთავრდება.</figcaption>
+        </figure>
+        <figure class="slide">
+          <img src="../img/dinner.webp" alt="ვახშამი ეზოს მაგიდაზე: ხინკალი, ხაჭაპური, პომიდორი, ახალი ყველი, ნესვი და დოქი სახლის ღვინო" width="1370" height="1028" loading="lazy" data-full="../img/dinner.webp">
+          <figcaption>საღამო მარინას სუფრასთან: ხინკალი, ხაჭაპური, ახალი ყველი და მისი სახლის ღვინო.</figcaption>
+        </figure>
+      </div>
+      <button class="car-btn prev" aria-label="წინა ფოტო">‹</button>
+      <button class="car-btn next" aria-label="შემდეგი ფოტო">›</button>
+      <div class="dots"><button class="on" aria-label="ფოტო 1"></button><button aria-label="ფოტო 2"></button></div>
+    </div>
   </section>
 
   <section id="rooms" class="rooms">
@@ -332,5 +343,6 @@ document.getElementById('y').textContent = new Date().getFullYear();
   });
 })();
 </script>
+<script src="../carousel.js"></script>
 </body>
 </html>
