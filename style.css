@@ -126,7 +126,7 @@ section { padding-block: clamp(3rem, 7vw, 5.5rem); }
 .amenities h2 { color: #fff; }
 .amenity-grid { list-style: none; padding: 0; margin: 0; display: grid; gap: .8rem 1.5rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
 .amenity-grid li { display: flex; align-items: center; gap: .7rem; padding: .5rem 0; border-bottom: 1px solid rgba(255,255,255,.12); }
-.ico { font-size: 1.3rem; width: 1.8rem; text-align: center; }
+.ico { width: 1.35rem; height: 1.35rem; flex: none; color: #e8b3c4; }
 
 /* location */
 .location { display: grid; gap: 2.5rem; grid-template-columns: 1fr; align-items: start; }
