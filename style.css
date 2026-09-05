@@ -156,3 +156,6 @@ section { padding-block: clamp(3rem, 7vw, 5.5rem); }
 .lb-prev { left: .25rem; top: 50%; transform: translateY(-50%); }
 .lb-next { right: .25rem; top: 50%; transform: translateY(-50%); }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+.lang { border: 1px solid var(--line); border-radius: 999px; padding: .25rem .6rem; font-size: .8rem !important; letter-spacing: .05em; }
+.lang:hover { border-color: var(--wine); }
+@media (max-width: 640px) { .nav a.lang { display: inline-block; } }
